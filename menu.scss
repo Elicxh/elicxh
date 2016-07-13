@@ -1,0 +1,26 @@
+.l-region--highlighted { 
+	background-image: url('http://127.0.0.1/sites/all/themes/test/p.jpg');
+	width: 100% !important;
+	nav {
+		.block__title {
+			display: none;
+		}
+		ul {
+			padding-left: 3%; 
+			li {
+				list-style-type: none !important;
+				list-style-image: none !important;
+				display: inline;
+				float: left;
+				margin: 0 3%;
+				//background-color:
+				a {
+					height: 40px;
+					margin: 10% 0;
+					display: block;
+					font-size: 20px;
+				}
+			}
+		}
+	}
+}

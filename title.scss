@@ -1,0 +1,54 @@
+body {
+	background-color: gainsboro;
+}
+
+.l-page {
+	background-color: ghostwhite;
+	margin: 0 5%;
+}
+
+.l-branding {
+	width: 290px !important;
+}
+
+.site-branding__logo {
+	display: inline;
+	float: left;
+}
+
+.site-branding__name {
+	@extend .site-branding__logo;
+	width: 141px;
+	margin-top: 50px;
+	text-decoration: none;
+	span {
+		font-size: 50px;
+		text-align: center;
+		display: block;
+	}
+}
+
+.l-region--navigation {
+	margin-top: 88px;
+	display: block;
+	float: right;
+	#block-search-form .block__content form div div .form-submit {
+		float: right;
+		position: relative;
+		right: -180px;
+		margin-bottom: 1%;
+		margin-top: 0.5%;
+	}
+}
+
+.l-region--header {
+	@extend .l-region--navigation;
+	margin-right: 3%;
+}
+
+.form-item-search-block-form {
+	float: right;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 11%;
+}
